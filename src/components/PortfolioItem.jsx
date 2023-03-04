@@ -2,7 +2,7 @@ import React from "react";
 
 function PortfolioItem({ title, imgURL, stack, link }) {
   return (
-    <div className="border-4 border-gray-700 rounded-xl overflow-hidden bg-gradient-to-tr from-slate-800 to-cyan-900 backdrop-blur-lg">
+    <div className="hover:border-gray-600 ease-in duration-300 border-4 border-gray-700 rounded-xl overflow-hidden bg-gradient-to-tr from-slate-800 to-cyan-900 backdrop-blur-lg">
       <a href={link} target="_blank" rel="noopener norefferer">
         <img
           src={imgURL}
@@ -11,7 +11,7 @@ function PortfolioItem({ title, imgURL, stack, link }) {
         />
       </a>
       <div className="w-full p-4">
-        <h3 className="text-center text-lg md:text-xl mb-2 md:mb-3 font-semibold">
+        <h3 className="text-center md:text-xl mb-2 md:mb-3 text-base font-semibold">
           {title}
         </h3>
         <p className="flex flex-wrap gap-2 flex-row items-center justify-center text-xs md:text-sm">

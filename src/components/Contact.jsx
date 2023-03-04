@@ -7,7 +7,7 @@ function Contact() {
         <form
           action="https://getform.io/f/0025670c-0920-4f17-9f70-bf2c60ffb592"
           method="POST"
-          className="border-4 border-gray-700 flex flex-col w-full md:w-7/12 rounded-xl pb-4 px-4 bg-gradient-to-tr from-slate-800 to-cyan-900"
+          className="hover:border-gray-600 ease-in duration-300 border-4 border-gray-700 flex flex-col w-full md:w-7/12 rounded-xl pb-4 px-4 bg-gradient-to-tr from-slate-800 to-cyan-900"
         >
           <p className="mt-4 mb-5 text-center text-base md:text-xl font-medium">
             Contact

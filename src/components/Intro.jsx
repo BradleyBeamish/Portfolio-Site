@@ -2,16 +2,16 @@ import React from "react";
 
 function Intro() {
   return (
-    <div className="flex items-center justify-center w-full h-96 flex-col text-center relative">
+    <div className="h-96 md:h-screen flex items-center justify-center w-full flex-col text-center relative">
       <img
         src="assets/IntroBackdrop.jpg"
         alt=""
         className="pointer-events-none w-full h-full object-cover absolute scale-125 sm:scale-100 mix-blend-lighten object-bottom"
       />
-      <h1 className="text-white pb-3 sm:pb-5 text-4xl md:text-7xl font-bold pt-15 drop-shadow-lg shadow-black">
+      <h1 className="text-white pb-3 sm:pb-5 text-4xl md:text-7xl font-bold drop-shadow-lg shadow-black p-4 border-8 border-white">
         Bradley Beamish
       </h1>
-      <p className="pb-3 sm:pb-5 text-base md:text-xl font-medium drop-shadow-lg shadow-black">
+      <p className="pb-3 pt-5 sm:pb-5 text-base md:text-xl font-medium drop-shadow-lg shadow-black">
         Sotware Developer
       </p>
       <p className="pb-3 sm:pb-5 px-4 sm:px-2 md:px-0 text-sm max-w-xl font-bold drop-shadow-lg shadow-black">
