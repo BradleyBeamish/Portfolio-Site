@@ -14,8 +14,8 @@ export default [
         imgURL: "assets/store.png",
         stack: ["MongoDB", "ExpressJS", "ReactJS", "NodeJS"],
         description: [
-            "● Developed a scalable online store using the MERN stack, providing a platform for users to seamlessly buy and sell items.",
-            "● Implemented secure user authentication, enabling users to create accounts, log in, and manage their profiles with ease, as well as search features, allowing users to efficiently browse and discover listings base on their preferences.",
+            "● Developed a scalable online store using the MERN stack, providing a platform for users to buy and sell items.",
+            "● Implemented secure user authentication, enabling users to create accounts, log in, and manage their profiles, as well as search features, allowing users to browse and discover listings based on their preferences.",
         ],
         link: "https://github.com/BradleyBeamish/online-store",
     },
@@ -24,7 +24,7 @@ export default [
         imgURL: "assets/food.png",
         stack: ["Java"],
         description: [
-            "● A Java project that allows the user to add items to a shopping list from a basic food group, modify quantities, search for items with a binary search, sort the items and write to a text file.",
+            "● A Java project that utilizes data structures and algorithms to allows the user to add items to a shopping list from a basic food group, modify quantities, search for items with a binary search, sort the items and write to a text file.",
         ],
         link: "https://github.com/BradleyBeamish/ShoppingListProgram",
     },
